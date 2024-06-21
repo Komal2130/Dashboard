@@ -8,6 +8,7 @@ const initialState = {
   userProfile: false,
   notification: false,
 };
+  
 
 export const ContextProvider = ({ children }) => {
   const [screenSize, setScreenSize] = useState(undefined);
